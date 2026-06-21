@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrar — Capacitação em Photoshop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><span>Ps</span></span>
+      <div>CAPACITAÇÃO<small>Photoshop &amp; Tráfego Pago · 2026</small></div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#curriculo">Currículo</a>
+      <a href="index.html#instrutores">Instrutores</a>
+      <a href="index.html#planos">Planos</a>
+    </div>
+    <div class="nav-actions">
+      <a href="cadastro.html" class="btn btn-primary">Criar conta</a>
+    </div>
+    <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+  </div>
+</nav>
+
+<div class="auth-shell">
+  <div class="auth-side">
+    <div class="eyebrow">Capacitação 2026</div>
+    <div>
+      <p class="quote">"O workspace do Photoshop deixa de ser estranho já na <span>primeira semana</span> de curso."</p>
+      <p class="who">— Turma de 2026</p>
+    </div>
+    <span class="eyebrow">Área do aluno</span>
+  </div>
+
+  <div class="auth-main">
+    <div class="auth-card">
+      <h1>Entrar na conta</h1>
+      <p class="sub">Ainda não tens conta? <a href="cadastro.html" style="color:var(--purple-2);">Inscreve-te</a>.</p>
+
+      <form id="form-login" novalidate>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="ex: ana@email.com" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" placeholder="A tua senha" autocomplete="current-password" required>
+        </div>
+        <p class="field-hint" style="text-align:right;"><a href="#" style="color:var(--muted);">Esqueci a senha</a></p>
+        <div class="submit">
+          <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+        </div>
+      </form>
+      <p class="auth-foot">Demonstração — qualquer combinação de e-mail e senha entra na área do aluno.</p>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

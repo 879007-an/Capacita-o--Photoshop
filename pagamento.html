@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pagamento — Capacitação em Photoshop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><span>Ps</span></span>
+      <div>CAPACITAÇÃO<small>Photoshop &amp; Tráfego Pago · 2026</small></div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#planos">Planos</a>
+    </div>
+    <div class="nav-actions"></div>
+  </div>
+</nav>
+
+<div class="auth-shell">
+  <div class="auth-side">
+    <div class="eyebrow">Passo 2 de 2</div>
+    <div>
+      <p class="quote">"Pagamento <span>simulado</span> — esta é uma demonstração de como o fluxo de checkout poderia funcionar."</p>
+      <p class="who">Nenhum valor real é cobrado.</p>
+    </div>
+    <span class="eyebrow">Checkout</span>
+  </div>
+
+  <div class="auth-main">
+    <div class="auth-card">
+      <h1>Finalizar inscrição</h1>
+      <p class="sub" data-plan-pill>A carregar plano...</p>
+
+      <div class="order-summary" data-order-summary></div>
+
+      <div class="pay-tabs">
+        <div class="pay-tab active" data-tab="express">Multicaixa Express</div>
+        <div class="pay-tab" data-tab="transferencia">Transferência</div>
+      </div>
+
+      <form id="form-pagamento" novalidate>
+        <div class="keypad-preview">
+          <div class="dots"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span></div>
+          <p style="font-family:var(--f-mono); font-size:11px; color:var(--muted-2); margin-bottom:14px;">PIN de simulação · Multicaixa Express</p>
+          <div class="keypad-grid">
+            <button type="button">1</button><button type="button">2</button><button type="button">3</button>
+            <button type="button">4</button><button type="button">5</button><button type="button">6</button>
+            <button type="button">7</button><button type="button">8</button><button type="button">9</button>
+            <button type="button">⌫</button><button type="button">0</button><button type="button">✓</button>
+          </div>
+        </div>
+
+        <div class="field" style="margin-top:24px;">
+          <label for="telmovel">Número associado ao Multicaixa Express</label>
+          <input type="tel" id="telmovel" placeholder="9XX XXX XXX">
+        </div>
+
+        <div class="submit">
+          <button type="submit" class="btn btn-primary btn-block">Confirmar pagamento</button>
+        </div>
+      </form>
+      <p class="auth-foot">Simulação apenas — não introduzas dados bancários reais.</p>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
